@@ -1,0 +1,32 @@
+/*Nesse arquivo .css, adicione os estilos para que:
+
+O texto das tags ‘h1’ e ‘p’ estejam centralizados.
+A cor de fundo da sua lista mude quando o cursor estiver sobre o item.
+A fonte do item mude quando ele for clicado.*/
+
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+
+* {
+  font-family: sans-serif;
+}
+
+h1 p {
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+#lista-de-sites li:hover {
+  background-color: aquamarine;
+}
+
+#lista-de-sites li a:active {
+  font-family: 'Delicious Handrawn', cursive;
+}
